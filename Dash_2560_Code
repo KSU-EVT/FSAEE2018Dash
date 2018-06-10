@@ -1,0 +1,7 @@
+#include <SPI.h>
+#include <Wire.h>
+
+// Pin definitions specific to how the MCP2515 is wired up.
+// If this code is being breadboarded off of the actual PCB: Pin 10 for SparkFun canbus shield
+#define CS_PIN    36
+#define CAN_INT_PIN   18 // INTERRUPT != PIN. 
